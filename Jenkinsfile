@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building ${env.BRANCH_NAME} branch...'
+                echo "Building ${env.BRANCH_NAME} branch..."
                 // Insert build commands here
             }
         }
